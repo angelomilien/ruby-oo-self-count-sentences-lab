@@ -4,7 +4,6 @@ class String
 
   def sentence?
     !!self.end_with?(".")
-    
   end
 
   def question?
@@ -20,5 +19,4 @@ class String
     new_value = array.reject { |e| e.to_s.empty? }
     new_value.length
   end
- 
 end
